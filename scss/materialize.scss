@@ -1,15 +1,11 @@
 @charset "UTF-8";
-
 // Color
 @import "components/color-variables";
 @import "components/color-classes";
-
 // Variables;
 @import "components/variables";
-
 // Reset
 @import "components/normalize";
-
 // components
 @import "components/global";
 @import "components/badges";
@@ -39,3 +35,18 @@
 @import "components/pulse";
 @import "components/datepicker";
 @import "components/timepicker";
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: white;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
